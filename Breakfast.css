@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* logo section css */
+.logobar {
+  width: 100%;
+  height: 80px;
+  background: #ce0505 0% 0% no-repeat padding-box;
+  opacity: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.edureka {
+  border: 2ox solid black;
+  width: 60px;
+  height: 60px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 40px;
+  margin-left: 160px;
+}
+.logo {
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  color: #eb2929;
+  opacity: 1;
+}
+.button {
+  margin-left: 750px;
+}
+.btntwo {
+  width: 181px;
+  height: 46px;
+  background-color: #ce0505;
+  border: 1px solid #ffffff;
+  font-family: "Poppins", sans-serif;
+  border-radius: 3px;
+  opacity: 1;
+  color: white;
+}
+.btnone {
+  width: 181px;
+  height: 46px;
+  background-color: #ce0505;
+  border: none;
+  font-family: "Poppins", sans-serif;
+  border-radius: 3px;
+  opacity: 1;
+  color: white;
+}
+
+/* breakfast headion section css */
+.heading {
+  margin-top: 40px;
+  margin-left: 170px;
+  font-size: 23px;
+  color: #12254e;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: normal;
+}
+
+/* container section css for filter,food cart, pagin */
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 170px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+.insidecontainerone {
+  margin-right: 50px;
+}
+.filters {
+  width: 260px;
+  height: 682px;
+  box-shadow: 0px 4px 8px #00000029;
+  opacity: 1;
+}
+.filters h3 {
+  margin-left: 20px;
+  font-size: 18px;
+  padding-top: 12px;
+  color: #192f60;
+  font-family: "Poppins", sans-serif;
+}
+.filters h4 {
+  margin-left: 20px;
+  margin-top: 10px;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: #192f60;
+}
+.search {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.search-location {
+  width: 200px;
+  height: 35px;
+  border: 1px solid #8c96ab;
+  border-radius: 3px;
+  opacity: 1;
+  color: #8c96ab;
+}
+.culsine {
+  margin-left: 20px;
+  margin-top: 30px;
+  font-size: 13px;
+  font-family: "Poppins", sans-serif;
+  color: #192f60;
+  font-weight: bold;
+}
+.checkbox {
+  width: 18px;
+  height: 18px;
+  margin-left: 20px;
+  margin-top: 8px;
+  border: 2px solid #3a5075;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.dish {
+  letter-spacing: 0px;
+  color: #8c96ab;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+  margin-left: 5px;
+  font-size: 15px;
+}
+.radiobutton {
+  width: 18px;
+  height: 18px;
+  margin-left: 20px;
+  margin-top: 8px;
+  border: 2px solid #3a5075;
+  border-radius: 9px;
+  opacity: 1;
+}
+.price {
+  letter-spacing: 0px;
+  color: #8c96ab;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+  margin-left: 5px;
+  font-size: 15px;
+}
+.sort {
+  margin-left: 20px;
+  margin-top: 22px;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  color: #192f60;
+  font-weight: bold;
+}
+
+.foodone {
+  width: 794px;
+  height: 291px;
+  box-shadow: 0px 4px 8px #00000029;
+  opacity: 1;
+  background-color: #ffffff;
+}
+.foodtwo {
+  width: 794px;
+  height: 291px;
+  box-shadow: 0px 4px 8px #00000029;
+  opacity: 1;
+  margin-top: 34px;
+  background-color: #ffffff;
+}
+.foodcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  width: 110px;
+  height: 110px;
+  margin-top: 18px;
+  margin-left: 35px;
+  opacity: 1;
+  border-radius: 30px;
+}
+.food-heading {
+  margin-top: 25px;
+  margin-left: 41px;
+}
+.The-big-chill {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+
+  letter-spacing: 0px;
+  color: #192f60;
+  opacity: 1;
+}
+.fort {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  color: #192f60;
+  opacity: 1;
+  margin-left: 43px;
+  margin-top: 3px;
+}
+.address {
+  font-size: 16px;
+  opacity: 1;
+  margin-left: 43px;
+  margin-top: 3px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  color: #636f88;
+}
+.line {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+.line hr {
+  width: 750px;
+  background-color: #636f88;
+  opacity: 0.3;
+}
+.cost {
+  display: flex;
+  flex-direction: row;
+}
+
+.insideflex {
+  margin-top: 30px;
+  margin-left: 35px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0px;
+  color: #636f88;
+  opacity: 1;
+}
+.Cusisines {
+  font-size: 16px;
+}
+.cost-for-two {
+  margin-top: 10px;
+}
+.insideflextwo {
+  margin-top: 30px;
+  margin-left: 35px;
+  color: #192f60;
+  letter-spacing: 0px;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+.rs {
+  margin-top: 10px;
+}
+.nextitem {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 25px;
+}
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 15px;
+  width: 36px;
+  height: 36px;
+  border: 1px solid #8c96ab;
+  border-radius: 7px;
+  opacity: 1;
+  font-family: "Poppins", sans-serif;
+  margin-left: 10px;
+  background-color: white;
+}
+#btn1 {
+  background-color: #8c96ab;
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Breakfast places</title>
+    <link rel="stylesheet" href="Breakfast.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- logo bar sectionn -->
+    <div class="logobar">
+      <div class="edureka">
+        <p class="logo">e!</p>
+      </div>
+      <div class="button">
+        <button class="btnone" type="button">Login</button>
+        <button class="btntwo" type="button">Create my account</button>
+      </div>
+    </div>
+
+    <!-- Heading secteion -->
+    <div class="heading">
+      <h2>Breakfast Places in Mumbai</h2>
+    </div>
+
+    <!-- one container with three div 1) filter 2)food item cart 3)next page-->
+    <div class="container">
+      <div class="insidecontainerone">
+        <div class="filters">
+          <h3>Filters</h3>
+          <h4>Select Location</h4>
+          <!-- search location -->
+          <div class="search">
+            <select class="search-location">
+              <option selected>Search Location</option>
+              <option value="mumbai">Mumbai</option>
+              <option value="pune">Pune</option>
+              <option value="raipur">Raipur</option>
+              <option value="bhilai">Bhilai</option>
+              <option value="korba">Korba</option>
+            </select>
+          </div>
+          <!-- check-box section  culsine -->
+          <p class="culsine">Culsine</p>
+          <div class="inputone">
+            <input class="checkbox" type="checkbox" id="checkbox" />
+            <span class="dish" for="input">North Indian</span>
+          </div>
+          <div class="inputtwo">
+            <input class="checkbox" type="checkbox" id="checkbox" />
+            <span class="dish" for="input">South Indian</span>
+          </div>
+          <div class="inputthree">
+            <input class="checkbox" type="checkbox" id="checkbox" />
+            <span class="dish" for="input">chinese</span>
+          </div>
+          <div class="inputfour">
+            <input class="checkbox" type="checkbox" id="checkbox" />
+            <span class="dish" for="input">Fast food</span>
+          </div>
+          <div class="inputfive">
+            <input class="checkbox" type="checkbox" id="checkbox" />
+            <span class="dish" for="input">Street food</span>
+          </div>
+
+          <!-- Radio button section cost for two -->
+          <p class="culsine">Cost For Two</p>
+          <div class="radioinput">
+            <div class="radioinputone">
+              <input class="radiobutton" type="radio" name="rate" />
+              <span class="price" for="input">Less Than 500</span>
+            </div>
+            <div class="radioinputtwo">
+              <input class="radiobutton" type="radio" name="rate" />
+              <span class="price" for="input">500 to 1000</span>
+            </div>
+            <div class="radioinputthree">
+              <input class="radiobutton" type="radio" name="rate" />
+              <span class="price" for="input">1000 to 1500</span>
+            </div>
+            <div class="radioinputfour">
+              <input class="radiobutton" type="radio" name="rate" />
+              <span class="price" for="input">1500 to 2000</span>
+            </div>
+            <div class="radioinputfive">
+              <input class="radiobutton" type="radio" name="rate" />
+              <span class="price" for="input">2000+</span>
+            </div>
+          </div>
+
+          <!-- sort section with radio buttons -->
+          <p class="sort">Sort</p>
+          <div class="sortcontainer">
+            <div class="radioinputone">
+              <input class="radiobutton" type="radio" name="sorts" />
+              <span class="price" for="input">Price low to high</span>
+            </div>
+            <div class="radioinputtwo">
+              <input class="radiobutton" type="radio" name="sorts" />
+              <span class="price" for="input">Price high to low</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- first food cart in inside container -->
+      <div class="insidecontainertwo">
+        <div class="foodone">
+          <div class="foodcontainer">
+            <div class="flex1">
+              <img
+                class="image"
+                src="\Images\image.png"
+                alt="image is loading"
+              />
+            </div>
+            <div class="flex2">
+              <div class="food-heading">
+                <h3 class="The-big-chill">The Big Chill Cakery</h3>
+              </div>
+              <p class="fort">FORT</p>
+              <p class="address">
+                Shop 1,Plot D, Samruddhi Commplex, Chincholi...
+              </p>
+            </div>
+          </div>
+          <div class="line">
+            <hr />
+          </div>
+          <div class="cost">
+            <div class="flex4">
+              <div class="insideflex">
+                <p class="Cusisines">CUISINES:</p>
+                <p class="cost-for-two">COST FOR TWO:</p>
+              </div>
+            </div>
+            <div class="flex5">
+              <div class="insideflextwo">
+                <p class="bakery">Bakery</p>
+                <p class="rs">₹700</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--  second food cart in inside container -->
+        <div class="foodtwo">
+          <div class="foodcontainer">
+            <div class="flex1">
+              <img
+                class="image"
+                src="\Images\image.png"
+                alt="image is loading"
+              />
+            </div>
+            <div class="flex2">
+              <div class="food-heading">
+                <h3 class="The-big-chill">The Bake Shop</h3>
+              </div>
+              <p class="fort">FORT</p>
+              <p class="address">
+                Shop 1,Plot D, Samruddhi Commplex, Chincholi...
+              </p>
+            </div>
+          </div>
+          <div class="line">
+            <hr />
+          </div>
+          <div class="cost">
+            <div class="flex4">
+              <div class="insideflex">
+                <p class="Cusisines">CUISINES:</p>
+                <p class="cost-for-two">COST FOR TWO:</p>
+              </div>
+            </div>
+            <div class="flex5">
+              <div class="insideflextwo">
+                <p class="bakery">Bakery</p>
+                <p class="rs">₹700</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- pagin section -->
+        <div class="nextitem">
+          <button class="item"><</button>
+          <button class="item" id="btn1">1</button>
+          <button class="item">2</button>
+          <button class="item">3</button>
+          <button class="item">4</button>
+          <button class="item">5</button>
+          <button class="item">></button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
